@@ -1,0 +1,21 @@
+# XGuard IDS dashboard settings
+
+[server]
+headless = true
+address = "0.0.0.0"
+port = 8501
+runOnSave = false
+maxUploadSize = 5
+
+[browser]
+gatherUsageStats = false
+
+[client]
+toolbarMode = "minimal"
+
+[theme]
+base = "light"
+primaryColor = "#1E3A5F"
+backgroundColor = "#F6F7F8"
+secondaryBackgroundColor = "#E9EDF0"
+textColor = "#15232F"

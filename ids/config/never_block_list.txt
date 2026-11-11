@@ -1,0 +1,8 @@
+# Never-block list, the IDS will alert but never block these IPs
+# One IP per line, anything after # is a comment
+127.0.0.1  # Kali itself
+10.0.2.15  # Kali NAT address, eth0
+192.168.56.101  # Kali host-only address, eth1
+10.0.2.2  # VirtualBox NAT gateway, Kali's route to the internet and Telegram
+10.0.2.3  # VirtualBox NAT DNS server
+192.168.56.20  # Lab file server, added by Haikal Basha on 2026-11-03

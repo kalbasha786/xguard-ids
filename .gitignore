@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Secrets, never upload
+**/config/telegram.json
+**/config/users.json
+**/config/login_guard.json
+*.env
+
+# Logs and runtime data
+**/logs/
+**/archive/
+**/runs/
+**/data/
+
+# Editors and system files
+.vscode/
+.idea/
+.DS_Store

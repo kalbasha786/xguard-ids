@@ -1,0 +1,40 @@
+{
+  "model": "after payload rule",
+  "test_records": 676617,
+  "accuracy": 0.9994206471312427,
+  "macro_precision": 0.9970617067130835,
+  "macro_recall": 0.9661001745583107,
+  "macro_f1": 0.9803837339492105,
+  "per_class": {
+    "BENIGN": {
+      "precision": 0.9998884289125649,
+      "recall": 0.9994590293821949,
+      "f1": 0.9996736830363461,
+      "support": 600772
+    },
+    "DoS Hulk": {
+      "precision": 0.9997530610145077,
+      "recall": 0.9993417669443587,
+      "f1": 0.9995473716695813,
+      "support": 48615
+    },
+    "PortScan": {
+      "precision": 0.9886053369252612,
+      "recall": 0.9989332352400221,
+      "f1": 0.9937424525194862,
+      "support": 27185
+    },
+    "Web Attack": {
+      "precision": 1.0,
+      "recall": 0.8666666666666667,
+      "f1": 0.9285714285714286,
+      "support": 45
+    }
+  },
+  "batch_total_seconds": 2.427106205999735,
+  "batch_avg_microseconds_per_record": 3.5871197531243446,
+  "one_by_one_records": 1000,
+  "one_by_one_mean_ms": 2.654035846964689,
+  "one_by_one_median_ms": 2.642128999468696,
+  "one_by_one_max_ms": 6.64763600070728
+}

@@ -1,0 +1,5 @@
+Actual (rows) vs Predicted (columns),BENIGN,DoS Hulk,PortScan,Web Attack
+BENIGN,598752,76,297,16
+DoS Hulk,283,49796,3,0
+PortScan,9,11,27161,4
+Web Attack,365,0,0,63

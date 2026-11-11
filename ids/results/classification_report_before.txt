@@ -1,0 +1,10 @@
+              precision    recall  f1-score   support
+
+      BENIGN     0.9989    0.9994    0.9991    599141
+    DoS Hulk     0.9983    0.9943    0.9963     50082
+    PortScan     0.9891    0.9991    0.9941     27185
+  Web Attack     0.7590    0.1472    0.2466       428
+
+    accuracy                         0.9984    676836
+   macro avg     0.9363    0.7850    0.8090    676836
+weighted avg     0.9983    0.9984    0.9982    676836

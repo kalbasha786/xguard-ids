@@ -1,0 +1,40 @@
+{
+  "model_file": "models/xgb_ids_model.json",
+  "features": [
+    "Destination Port",
+    "Flow Duration",
+    "Total Fwd Packets",
+    "Total Backward Packets",
+    "Total Length of Fwd Packets",
+    "Total Length of Bwd Packets",
+    "Flow Bytes/s",
+    "Flow Packets/s",
+    "Packet Length Mean",
+    "Packet Length Std",
+    "Fwd IAT Mean",
+    "Bwd IAT Mean"
+  ],
+  "class_names": [
+    "BENIGN",
+    "DoS Hulk",
+    "PortScan",
+    "Web Attack – Brute Force"
+  ],
+  "label_to_id": {
+    "BENIGN": 0,
+    "DoS Hulk": 1,
+    "PortScan": 2,
+    "Web Attack – Brute Force": 3
+  },
+  "params": {
+    "max_depth": 6,
+    "class_weights": "off",
+    "n_estimators": 175,
+    "learning_rate": 0.1,
+    "tree_method": "hist"
+  },
+  "validation_macro_f1": 0.9923,
+  "training_rows": 1578771,
+  "final_training_seconds": 33.6,
+  "xgboost_version": "3.4.1"
+}

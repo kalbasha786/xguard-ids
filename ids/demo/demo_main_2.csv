@@ -1,0 +1,2 @@
+scenario,test_row,demo_source_ip,Label,Destination Port,Flow Duration,Total Fwd Packets,Total Backward Packets,Total Length of Fwd Packets,Total Length of Bwd Packets,Flow Bytes/s,Flow Packets/s,Packet Length Mean,Packet Length Std,Fwd IAT Mean,Bwd IAT Mean
+Main 2,523832,192.168.56.1,DoS Hulk,80,83541173,7,7,340,11595,142.8636871,0.167582038,796.0666667,1424.246892,13900000.0,13900000.0
